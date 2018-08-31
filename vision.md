@@ -44,6 +44,10 @@ should
 * Support for multiple environments
 * Supports multi-user package management: multiple users can share a common Nix store securely, don’t need to have root privileges to install software, and can install and use different versions of a package.
 
+* simple repo server (git-like
+* versionning
+* modular.. posibility to integrate other pkgs
+
 
 ### Pkg security
 ```
