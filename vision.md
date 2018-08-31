@@ -42,6 +42,7 @@ should
 * Download or processing can be set to run in parallel.
 * Can use multiple versions of the same package
 * Support for multiple environments
+* Supports multi-user package management: multiple users can share a common Nix store securely, don’t need to have root privileges to install software, and can install and use different versions of a package.
 
 
 ### Pkg security
