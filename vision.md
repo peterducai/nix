@@ -34,3 +34,11 @@ Platform and the Target Platform;
 • must have been compiled using a supported Oracle Solaris Studio compiler on a
 supported OS release. 
 ```
+
+### Package manager
+
+?
+
+```
+If a CRITICAL or IMPORTANT security issue is currently open against a package, or a security issue of lower severity has been open for at least 6 months, four weeks before the branch point a procedure similar to long-standing FTBFS will be triggered immediately, with 8 weeks of weekly notifications to maintainers and subsequent orphaning and then subsequent removal from distribution.
+```
