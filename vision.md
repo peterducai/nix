@@ -2,6 +2,9 @@
 
 ## Ideas from other OS
 
+* Everything is rebuilt from source 
+* Root partition mounted read-only
+
 ### OpenBSD
 
 * Kernel
