@@ -2,6 +2,10 @@
 
 ## Ideas from other OS
 
+* Atomic system update using A/B partitions (similar to Android or ChromeOS)
+* Fallback system version available in case of unexpected failure or bug
+* Supports updating both the system and other environments
+
 ### OpenBSD
 
 * Kernel
