@@ -16,7 +16,7 @@
 * Supports updating both the system and other environments
 * Live migration
 * Role-based access control (RBAC) with domain support for multi-tenant environments
-* Clustering
+* Built-in clustering capabilities to simplify high availability
 
 ### OpenBSD
 
