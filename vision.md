@@ -10,13 +10,18 @@
 
 ## Ideas from other OS
 
+* Live update
 * Atomic system update using A/B partitions (similar to Android or ChromeOS)
 * Fallback system version available in case of unexpected failure or bug
 * Supports updating both the system and other environments
+* Live migration
+* Role-based access control (RBAC) with domain support for multi-tenant environments
 
 ### OpenBSD
 
 * Kernel
+* KASLR
+* signing binaries
 
 ### Linux
 
