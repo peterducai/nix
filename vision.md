@@ -1,5 +1,9 @@
 # VISION
 
+## Bits
+
+64bit or 128bit? don't forget ZFS is 128bit
+
 ## Ideas from other OS
 
 * Atomic system update using A/B partitions (similar to Android or ChromeOS)
