@@ -2,7 +2,11 @@
 
 ## Bits
 
-64bit or 128bit? don't forget ZFS is 128bit
+64bit or 128bit? 
+
+* Universally Unique Identifiers (UUID) consist of a 128-bit value.
+* IPv6 routes computer network traffic amongst a 128-bit range of addresses.
+* ZFS is a 128-bit file system.
 
 ## Ideas from other OS
 
