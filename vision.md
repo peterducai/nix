@@ -18,6 +18,11 @@
 * Role-based access control (RBAC) with domain support for multi-tenant environments
 * Built-in clustering capabilities to simplify high availability
 
+
+## Other ideas
+
+* event driven FS watch to notify apps (kind of dtrace for user)
+
 ### OpenBSD
 
 * Kernel
