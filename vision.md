@@ -2,7 +2,7 @@
 
 ## Bits
 
-64bit or 128bit? 
+64bit or 128bit? let's step into the future with 128bit..
 
 * Universally Unique Identifiers (UUID) consist of a 128-bit value.
 * IPv6 routes computer network traffic amongst a 128-bit range of addresses.
@@ -10,12 +10,21 @@
 
 ## Ideas from other OS
 
+### System
+
 * Live update
 * Atomic system update using A/B partitions (similar to Android or ChromeOS)
 * Fallback system version available in case of unexpected failure or bug
 * Supports updating both the system and other environments
 * Live migration
+* multi version modular pkgs (aka HURD and Bolton Fedora)
+
+### Security
+
 * Role-based access control (RBAC) with domain support for multi-tenant environments
+
+### HA
+
 * Built-in clustering capabilities to simplify high availability
 
 
