@@ -34,9 +34,16 @@
 
 ### OpenBSD
 
-* Kernel
-* KASLR
-* signing binaries
+* Address space randomization (aka ASLR) no fixed jump targets or gaps
+* W^X memory can be writable XOR executable
+* Guard pages 'fence-like' unreadable, unwritable page after malloc()ed chunks, detect overruns
+* Privilege separation daemons run bulk of their code as different non-privileged users (most in chroot without shell) - sshd was the first, the rest followed
+* chroot jail -- daemons run in restricted environment ($HOME /var/empty, no shell)
+* ProPolice random stack gap inserted, fixed returns fail
+* OpenBSD 5.9 introduced pledge(2) syscall to restrict program behavior to predeclared profile
+* OpenBSD 6.2 introduced KARL (kernel address randomized link) - kernel relinked with randomized layout for each boot, see the undeadly.org article or the tech@ message (kernel object files grew base by ~300MB)
+* OpenBSD 6.4 introduced unveil(2) syscall to restrict file system access to predeclared profile
+* Privilege revocation privsep'd daemons drop privilege as soon as possible
 
 ### Linux
 
