@@ -23,3 +23,8 @@ Basics of the Unix Philosophy
 * Rule of **Optimization**: Prototype before polishing. Get it working before you optimize it.
 * Rule of **Diversity**: Distrust all claims for one true way.
 * Rule of **Extensibility**: Design for the future, because it will be here sooner than you think.
+
+## Dev features
+
+* Semver like versioning
+* GVS instead of Git
